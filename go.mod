@@ -1,6 +1,6 @@
 module github.com/LeoAntunesBrombilla/clean_arch
 
-go 1.21.6
+go 1.20
 
 require (
 	github.com/99designs/gqlgen v0.17.43
