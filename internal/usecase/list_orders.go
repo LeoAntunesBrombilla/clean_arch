@@ -37,7 +37,7 @@ func (l *ListOrdersUseCase) Execute() ([]OrderOutputDTO, error) {
 	}
 
 	payload := map[string]interface{}{
-		"totalOrders": len(dtos),
+		"orders": dtos,
 	}
 
 	l.OrdersListed.SetPayload(payload)
